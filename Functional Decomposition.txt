@@ -1,0 +1,16 @@
+Vending Machine
+-ask for bag code
+-ask for money
+-give bag
+Spoon in the gravy
+-use a larger spoon
+-use a larger spoon
+-have a robotic arm always hold on to the spoon and give servings of gravy
+People who can't park
+-people get fined for bad parking
+-walls instead of lines
+-robotic arms on corners of parking spot pick up car and bring it into spot
+People hogging seat with bags
+-luggage section
+-sign that says no luggage on seats
+-screen that says no luggage on seats
