@@ -4,11 +4,11 @@ print(f"(favourite colour)! No way that's my favourite colour too!")
 cans = int(input("How many cans per pack: "))
 packs = int(input("How many packs: "))
 total = cans * packs
-Print("There is a total of", total, "cans.")
+print("There is a total of", total, "cans.")
 
 h = int(input("What is the height in cm"))
 w = int(input("What is the width in cm"))
 l = int(input("What is the lenght in cm"))
 
-Volume = h*w*l
-Print("The final volume is", volume, "cm")
+volume = h*w*l
+print("The final volume is", volume, "cm")
