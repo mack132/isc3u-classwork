@@ -1,0 +1,2 @@
+favourite_colour = input('what is you favourite colour? : blue')
+print(f"(favourite colour)! No way that's my favourite colour too!")
