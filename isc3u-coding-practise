@@ -1,0 +1,65 @@
+def add(a: int, b:int, c: int) -> int:
+  """adds three numbers together.
+
+Args:
+  a: A number
+  b: Another number
+  c: final number
+
+Returns:
+  The sum of the numbers.
+"""
+return a + b + c
+
+result = add(5, 7, 4)
+print(result)
+
+def add(a: int, b: int)
+"""adds a word and a number
+
+Args:
+  a: A number
+  b: A word
+
+Returns:
+  The sum of a and b
+"""
+return a + b
+
+result = add(5, Baby)
+print(result)
+
+
+def average_of_numbers(a: int, b: int)
+
+Args:
+  a: A number
+  b: Another number
+
+Returns:
+  The average of the numbers.
+"""
+return average_of_numbers
+
+result = average(2, 5)
+print(result)
+
+
+def take_largest_number(a: int, b: int, c: int)
+"""takes largest of two numbers
+
+Args:
+  a: A number
+  b: Another number
+  c: Final number
+
+Returns:
+  the largest number
+"""
+return largest_number
+
+result = take_largest_number(1, 2, 3)
+print(result)
+
+
+
