@@ -1,0 +1,44 @@
+def main():
+  ask_user_name()
+  welcoming_message(name)
+  student_number()
+
+
+def ask_user_name(name):
+  valid = False
+  while valid == False:
+    name = input("Please enter your name ")
+    if len(name) < 2:
+      print("Invalid, your name cannot be less then 2 letters, please enter again. ")
+    if len(name) > 15:
+      print("Invalid, your name cannot be more then 15 letters, please enter again. ")
+    else:
+      valid = True
+  return name
+
+def welcoming_message(name):
+  return f"Hello {name}, welcome to this Markbook program"
+
+def student_number ():
+    student_number = int(input ("How many marks are you going to enter? "))
+    valid == False
+    while valid == False:
+      if student_number < 0:
+        print("It is impossible to have a negative number of kids in your class")
+      else:
+        valid = True
+    return student_number 
+
+def student_marks(student_number):
+  names = []
+  marks = []
+  student = 1
+  total = 0
+  for x in range(student_number):
+    name_of_student = input(f"What is the name of your student {student} ")
+    name.append(name_of_student)
+    mark = input(f"What is the mark for this student {student} ")
+    marks.append(mark)
+    student = student + 1
+  for x in range(student_number):
+    return f"{names[total]}, {marks[total]}
